@@ -80,10 +80,10 @@ int bookAppointment()
    cout<<"\n\n Input your choice : ";
    cin>>choice;
    
-   if( !(choice >= 'A' && choice <='Z'))
+   if( !(choice >= 'A' && choice <='M'))
    {
 	cout<<"\n Error : Invalid Selection";
-	cout<<"\n Please selction correct value from menu A- Z";
+	cout<<"\n Please selction correct value from menu A- M";
 	cout<<"\n Press any key to continue";
 	getchar();getchar();
 	system("cls");
